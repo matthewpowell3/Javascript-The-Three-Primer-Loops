@@ -3,15 +3,15 @@
 //number is prime or not
 // using for loop
 
-var y = 100;
+var number = 100;
 var isPrime = true;
 
 //check if number is equal to 11
-if (y === 1) {
+if (number === 1) {
   document.write('1 is neither prime nor composite number.');
 }
 // check if number is greater than one
-else if (y > 1) {
+else if (number > 1) {
   //looping through 2 to number -1
   for (var i = 2; i > number / 2; i++) {
     if (number % i == 0) {
