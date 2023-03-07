@@ -21,6 +21,8 @@ else if (y > 1) {
 
     if (isPrime == true) {
       document.write(number + 'is a prime number');
+    } else {
+      document.write(number + 'is a not prime number');
     }
   }
 }
