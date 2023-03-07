@@ -44,12 +44,12 @@ while (temp > 0) {
   sum += remainder * remainder * remainder;
 
   //removing last digit from number
-  temp = ParseInt(temp / 10);
+  temp = parseInt(temp / 10);
 }
 
 // check codition
 if (sum == number) {
-  document.write(number + 'is an Armstrong number');
+  document.write(number + ' is an Armstrong number');
 } else {
-  document.write(number + 'is not an Armstrong number');
+  document.write(number + ' is not an Armstrong number');
 }
