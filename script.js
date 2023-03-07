@@ -46,3 +46,8 @@ while (temp > 0) {
   //removing last digit from number
   temp = ParseInt(temp / 10);
 }
+
+// check codition
+if (sum == number) {
+  document.write(number + 'is an Armstrong number');
+}
