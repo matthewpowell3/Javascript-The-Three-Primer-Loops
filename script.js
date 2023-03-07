@@ -37,4 +37,9 @@ var sum = 0;
 // create a temporary variable
 
 let temp = number;
-while 
+while (temp > 0) {
+  //finding the one's digit
+  var remainder = temp % 10;
+
+  sum += remainder * remainder * remainder;
+}
