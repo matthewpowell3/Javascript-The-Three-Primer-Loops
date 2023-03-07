@@ -18,5 +18,9 @@ else if (y > 1) {
       isPrime = false;
       break;
     }
+
+    if (isPrime == true) {
+      document.write(number + 'is a prime number');
+    }
   }
 }
