@@ -42,4 +42,7 @@ while (temp > 0) {
   var remainder = temp % 10;
 
   sum += remainder * remainder * remainder;
+
+  //removing last digit from number
+  temp = ParseInt(temp / 10);
 }
