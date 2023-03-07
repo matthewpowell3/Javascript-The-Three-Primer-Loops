@@ -50,4 +50,6 @@ while (temp > 0) {
 // check codition
 if (sum == number) {
   document.write(number + 'is an Armstrong number');
+} else {
+  document.write(number + 'is not an Armstrong number');
 }
