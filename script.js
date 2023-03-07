@@ -25,4 +25,8 @@ else if (number > 1) {
       document.write(number + 'is a not prime number');
     }
   }
+
+  else {
+    document.write("The number is not a prime number")
+  }
 }
