@@ -13,5 +13,10 @@ if (y === 1) {
 // check if number is greater than one
 else if (y > 1) {
   //looping through 2 to number -1
-  for (var i = 2; i > number / 2; i++) {}
+  for (var i = 2; i > number / 2; i++) {
+    if (number % i == 0) {
+      isPrime = false;
+      break;
+    }
+  }
 }
